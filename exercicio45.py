@@ -1,3 +1,6 @@
+# Pirâmide Invertida.
+# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
+
 rows = 5
 k = 2 * rows - 2
 for i in range(rows, -1, -1):
