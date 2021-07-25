@@ -7,4 +7,28 @@
 # o programa;
 # 3. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
 # 4. Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
+# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
 
+a = float(input("Digite o valor de A: "))
+b = float(input("Digite o valor de B: "))
+c = float(input("Digite o valor de C: "))
+
+delta = 0
+raiz1 = 0
+raiz2 = 0
+
+if a == 0:
+	print("A equação apresentada não é do segundo grau. O programa será encerrado!")
+
+else:
+	print("Calculando delta...")
+	delta = (((b**2) - (4*a*c)))
+	
+	if delta == 0:
+		print("A equação possui apenas uma raiz que é: ")
+		raiz1 = ((-b)+(delta**(1/2))/(2*a))
+		print(raiz1)
+	else:
+		raiz1 = ((-b)+(delta**(1/2))/(2*a))
+		raiz2 = ((-b)-(delta**(1/2))/(2*a))
+		print("A equação possui duas raizes que são:", raiz1, "e", raiz2)

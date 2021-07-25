@@ -2,7 +2,7 @@
 # Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
 
 contador = 0
-while (contador < 123456789):
+while (contador < 201):
        print(contador)
        contador = contador + 1
 else:
