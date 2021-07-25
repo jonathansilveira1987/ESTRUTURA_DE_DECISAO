@@ -6,6 +6,7 @@
   # Entre 6.0 e 7.5             C
   # Entre 4.0 e 6.0             D
   # Entre 4.0 e zero            E
+# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
 
 nota1 = float(input("Digite o valor da primeira nota: "))
 nota2 = float(input("Digite o valor da segunda nota: "))

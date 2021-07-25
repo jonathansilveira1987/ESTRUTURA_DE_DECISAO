@@ -15,6 +15,8 @@
         # FGTS (11%)                      : R$  121,00
         # Total de descontos              : R$  165,00
         # Salário Liquido                 : R$  935,00
+# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
+
 valor_hora_trabalhada = float(input("Digite o valor da hora de trabalho: "))
 valor_horas_mes = float(input("Digite o valor de horas trabalhadas no mês: "))
 

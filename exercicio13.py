@@ -1,5 +1,6 @@
 # 13. Faça um Programa que leia um número e exiba o dia correspondente da semana.
 # (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
 
 dia_da_semana = 1, 2, 3, 4, 5, 6
 dia_da_semana = int(input("Digite um número: "))
