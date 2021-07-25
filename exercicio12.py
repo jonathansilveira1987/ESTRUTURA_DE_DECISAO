@@ -41,3 +41,8 @@ print("Seu salário bruto é de: ", salario_bruto)
 print("O valor de seu FGTS é: ", fgts)
 print("O valor para o sindicato é de: ", sindicato)
 print("O valor de seu salário líquidom é de: ", salario_liquido)
+
+# print("Seu salario bruto e : %7.2f" % salariob)
+# print("O valor de seu FGTS e de: %7.2f" % fgts)
+# print("O sindicato vai te levar: %7.2f" % sind)
+# print("Seu salario liquido e de: %7.2f" % salariol)
