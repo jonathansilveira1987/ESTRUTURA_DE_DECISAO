@@ -1,6 +1,9 @@
 # 17. Faça um Programa que peça um número correspondente a um determinado ano e em 
 # seguida informe se este ano é ou não bissexto.
-mes = (janeiro = 1), (fevereiro = 2), (marco = 3), (abril = 4), (maio = 5), (junho = 6), (julho = 7), (agosto = 8), (setembro = 9), (outubro = 10), (novembro = 11) , (dezembro = 12)
+# Desenvolvido por https://www.pythonprogressivo.net/2018/02/Descobrir-Ano-Bissexto.html
 
-r = int(input("Digite o mês desejado: "))
-print(r)
+ano = int(input("Digite o ano desejado: "))
+if (ano%4==0 and ano%100!=0) or (ano%400==0):
+    print('Bissexto')
+else:
+    print('Não é bissexto')

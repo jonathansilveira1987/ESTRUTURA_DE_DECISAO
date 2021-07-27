@@ -7,7 +7,8 @@
 # o programa;
 # 3. Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
 # 4. Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário;
-# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01
+# Desenvolvido por Siegrfried
+# https://gist.github.com/Siegrfried/6f7459b909735738f940be9673ca099a
 
 a = float(input("Digite o valor de A: "))
 b = float(input("Digite o valor de B: "))
