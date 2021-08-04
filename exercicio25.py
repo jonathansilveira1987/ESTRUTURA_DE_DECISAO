@@ -6,8 +6,9 @@
 # "Já trabalhou com a vítima?" 
 # O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. 
 # Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre
-#  3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
-# Desenvolvido por Jonathan Silveira com auxílio de Messias Ferreira & Fernanda Campagnucci Pereira
+# 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
+# Desenvolvido por Jonathan Silveira - Instagram: @ jonathandev01 com auxílio de:
+# Messias Ferreira & Fernanda Campagnucci Pereira
 # Fonte: https://cursos.alura.com.br/forum/topico-a-resposta-do-terminal-esta-saindo-diferente-do-debug-67135
 
 print("Vamos a um breve interrogatório sobre um crime")
