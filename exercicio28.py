@@ -11,6 +11,8 @@
 # de carne comprada pelo usuário e gere um cupom fiscal, contendo as 
 # informações da compra: tipo e quantidade de carne, preço total, tipo 
 # de pagamento, valor do desconto e valor a pagar.
+# Desenvolvido por Karen Vicente
+# Fonte: https://github.com/karenyov/exerciciosPythonBrasil/blob/master/2_EstruturaDeDecisao/28.py
 
 print("1- File Duplo\n2- Alcatra\n3- Picanha\n\n")
 tipo = int(input("Digite o tipo: "))
