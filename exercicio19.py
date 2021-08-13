@@ -20,15 +20,15 @@ for numero in lista:
         dezena =  strNumer[1]
         centena = strNumer[0]
         #Verificar singular ou plural 
-        if unidade == '1' or unidade == '0':
+        if unidade == "1" or unidade == "0":
             flexaoUnid = "unidade"
         else:
             flexaoUnid = "unidades"
-        if dezena == '1' or dezena == '0':
+        if dezena == "1" or dezena == "0":
             flexaoDezen = "dezena"
         else:
             flexaoDezen = "dezenas"
-        if centena == '1' or centena == '0':
+        if centena == "1" or centena == "0":
             flexaoCent = "centena"
         else:
             flexaoCent = "centenas"
@@ -39,11 +39,11 @@ for numero in lista:
         unidade = strNumer[1]
         dezena = strNumer[0]
         #Verificar singular ou plural 
-        if unidade == '1' or unidade == '0':
+        if unidade == "1" or unidade == "0":
             flexaoUnid = "unidade"
         else:
             flexaoUnid = "unidades"
-        if dezena == '1' or dezena == '0':
+        if dezena == "1" or dezena == "0":
             flexaoDezen = "dezena"
         else:
             flexaoDezen = "dezenas"
@@ -52,12 +52,12 @@ for numero in lista:
     #Tratamento de unidades    
     elif tamNumer == 1:
         unidade = strNumer[0]
-        if centena == '1' or centena == '0':
+        if centena == "1" or centena == "0":
             flexaoCent = "centena"
         else:
             flexaoCent = "centenas"
         #Verificar singular ou plural 
-        if unidade == '1' or unidade == '0':
+        if unidade == "1" or unidade == "0":
             flexaoUnid = "unidade"
         else:
             flexaoUnid = "unidades"

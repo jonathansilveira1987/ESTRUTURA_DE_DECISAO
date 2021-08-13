@@ -12,4 +12,4 @@ elif turno == "V":
 elif turno == "N":
     print("Boa Noite")
 else:
-    print("Valor InvÃ¡lido")
+    print("Valor Inválido")
